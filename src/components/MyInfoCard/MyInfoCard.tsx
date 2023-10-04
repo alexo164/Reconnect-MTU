@@ -33,7 +33,7 @@ const MyInfoCard = () => {
                         About
                     </span>
                 </Link>
-                <Link href='/contact'>
+                <Link href='/profiles'>
                     <span
                         className={styleCss}
                         style={{ background: `${getRandomGradientColor()}` }}
@@ -41,12 +41,12 @@ const MyInfoCard = () => {
                         Workshops
                     </span>
                 </Link>
-                <Link href='/profiles'>
+                <Link href='/contact'>
                     <span
                         className={styleCss}
                         style={{ background: `${getRandomGradientColor()}` }}
                     >
-                        Profiles
+                        Contact
                     </span>
                 </Link>
             </div>
