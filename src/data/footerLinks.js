@@ -42,22 +42,22 @@ const footerLinks = {
       
       {
         name:"Linkedin",
-        url:"https://www.linkedin.com/in/syedamahamfahim/",
+        url:"",
         icons:<AiFillLinkedin/>
       },
       {
         name:"GitHub",
-        url:"https://github.com/SyedaMahamFahim",
+        url:"",
         icons:<AiFillGithub/>
       },
       {
         name:"Twitter",
-        url:"https://twitter.com/0xSyedaMaham",
+        url:"",
         icons:<AiOutlineTwitter/>
       },
       {
         name:"Medium",
-        url:"https://medium.com/@syedamahamfahim/",
+        url:"",
         icons:<AiFillMediumSquare/>
       },
     ]

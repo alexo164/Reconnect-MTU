@@ -1,9 +1,9 @@
-export const WEBSITE_NAME: string = "Syeda Maham Fahim";
+export const WEBSITE_NAME: string = "MTU Reconnect";
 export const WEBSITE_URL: string =
   "https://syedamaham.dev";
 
 
-export const LOGO:string="Syeda Maham Fahim"
+export const LOGO:string="MTUReconnect"
 
 export const META_DESCRIPTION= `Join ${WEBSITE_NAME} and explore the latest tech trends with our expert siblings in data engineering, web development, and more. Dive into coding with confidence.`
 

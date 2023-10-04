@@ -21,25 +21,7 @@ const ContentsTypeCard = () => {
                     </Link>
                 );
             })}
-            <a href={"https://github.com/SyedaMahamFahim"}
-            target="_blank"
-            rel="noreferrer"
-            >
-                <span
-                    className={styleCss}
-                    style={{ background: `${getRandomGradientColor()}` }}
-                >
-                    Open Source
-                </span>
-            </a>
-            <Link href={"/external-articles"}>
-                <span
-                    className={styleCss}
-                    style={{ background: `${getRandomGradientColor()}` }}
-                >
-                    External Articles
-                </span>
-            </Link>
+
         </>
     );
 };

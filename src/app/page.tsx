@@ -29,7 +29,7 @@ export default async function Home() {
                     <div className='container mx-auto mb-20 px-0 lg:px-[15px]'>
                         <div className={"flex flex-wrap"}>
                             <h1 className='mb-5 w-full px-3 text-xl font-bold md:text-3xl'>
-                                READ LATEST ARTICLES
+                                About
                             </h1>
 
                             <hr className='border-1 mx-auto mb-5 w-[98%]' />
@@ -42,7 +42,7 @@ export default async function Home() {
                                     isExternal={false}
                                 />
                             ) : (
-                                <p>No Article Found</p>
+                                <p>No info Found</p>
                             )}
                         </div>
                     </div>
@@ -50,7 +50,7 @@ export default async function Home() {
                 <div className='container mx-auto mt-20 px-0 lg:px-[15px]'>
                     <div className={"flex flex-wrap"}>
                         <h1 className='mb-5 w-full px-3 text-xl font-bold md:text-3xl'>
-                            EXPLORE LATEST SNIPPETS
+                            EXPLORE LATEST WORKSHOPS
                         </h1>
                         <hr className='border-1 mx-auto mb-5 w-[98%]' />
                         {allSnippets?.length > 0 ? (
@@ -60,7 +60,7 @@ export default async function Home() {
                                 noOfSnippet={3}
                             />
                         ) : (
-                            <p>No Snippets Found</p>
+                            <p>No Workshops Found</p>
                         )}
                     </div>
                 </div>

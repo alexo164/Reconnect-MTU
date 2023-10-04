@@ -14,7 +14,7 @@ const Footer = () => {
             {/* About Us */}
             <div className="flex flex-col text-white col-span-2">
               <div className="text-lg font-semibold mb-4">
-                <h1>Syeda Maham Fahim</h1>
+                <h1>Reconnect</h1>
               </div>
               <div className="flex mt-4 md:mt-0">
                 <div className="flex">
@@ -91,14 +91,13 @@ const CopyRightFooter = () => {
             {/* Column 1 */}
             <div className="text-center md:text-left">
               <p className="text-sm">
-                &copy; {CURRENT_YEAR} syedamaham. All rights reserved.
+                &copy; {CURRENT_YEAR} -copyright-here-. All rights reserved.
               </p>
             </div>
 
             {/* Column 2 */}
             <div className="text-center">
               <p className="text-sm">
-                <span className="block">{"</>"} with 💖 by Syeda Maham </span>
               </p>
             </div>
 

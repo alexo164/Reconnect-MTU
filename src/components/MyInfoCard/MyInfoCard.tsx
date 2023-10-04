@@ -16,12 +16,11 @@ const MyInfoCard = () => {
                         quality={100}
                         className='rounded-full'
                         src={ProfilePic}
-                        alt='Syeda Maham Fahim'
+                        alt='Reconnect'
                     />
                 </div>
                 <div className='ml-5'>
-                    <h4 className='font-bold'>Syeda Maham Fahim 🇵🇰</h4>
-                    <p className='line-clamp-1 text-xl'>💻 ✍ ℡ 🚀⚡️ </p>
+                    <h4 className='font-bold'>Reconnect</h4>
                 </div>
                 
             </div>
@@ -39,23 +38,9 @@ const MyInfoCard = () => {
                         className={styleCss}
                         style={{ background: `${getRandomGradientColor()}` }}
                     >
-                        Contact
+                        Workshops
                     </span>
                 </Link>
-                <a
-                    href='https://www.linkedin.com/in/syedamahamfahim/'
-                    target='_blank'
-                    aria-label={`EXPERIENCE`}
-                    rel='noopener noreferrer'
-                >
-                    <span
-                        className={styleCss}
-                        style={{ background: `${getRandomGradientColor()}` }}
-                    >
-                        Experience
-                    </span>
-                </a>
-
                 <Link href='/profiles'>
                     <span
                         className={styleCss}
