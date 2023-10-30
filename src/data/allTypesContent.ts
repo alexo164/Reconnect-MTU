@@ -5,24 +5,20 @@ interface ContentType {
 
 const allTypesContent: ContentType[] = [
   {
-    name: "Articles",
+    name: "About Us",
     url: "/articles",
   },
   {
-    name: "Snippets",
+    name: "Contact Us",
     url: "/snippets",
   },
   {
-    name: "Tags",
+    name: "Workshops",
     url: "/tags",
   },
   {
-    name: "Categories",
+    name: "Content",
     url: "/categories",
-  },
-  {
-    name: "Series",
-    url: "/series",
   },
   
 ];

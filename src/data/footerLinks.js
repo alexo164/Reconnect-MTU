@@ -38,29 +38,29 @@ const footerLinks = {
       },
       
     ],
-    socialMedia:[
+    // socialMedia:[
       
-      {
-        name:"Linkedin",
-        url:"",
-        icons:<AiFillLinkedin/>
-      },
-      {
-        name:"GitHub",
-        url:"",
-        icons:<AiFillGithub/>
-      },
-      {
-        name:"Twitter",
-        url:"",
-        icons:<AiOutlineTwitter/>
-      },
-      {
-        name:"Medium",
-        url:"",
-        icons:<AiFillMediumSquare/>
-      },
-    ]
+    //   {
+    //     name:"Linkedin",
+    //     url:"",
+    //     icons:<AiFillLinkedin/>
+    //   },
+    //   {
+    //     name:"GitHub",
+    //     url:"",
+    //     icons:<AiFillGithub/>
+    //   },
+    //   {
+    //     name:"Twitter",
+    //     url:"",
+    //     icons:<AiOutlineTwitter/>
+    //   },
+    //   {
+    //     name:"Medium",
+    //     url:"",
+    //     icons:<AiFillMediumSquare/>
+    //   },
+    // ]
   
 };
 

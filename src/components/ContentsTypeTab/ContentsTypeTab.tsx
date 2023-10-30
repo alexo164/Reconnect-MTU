@@ -10,6 +10,7 @@ const ContentsTypeTab = () => {
     <>
       <div className="mt-10 mb-10">
         <ul className="flex flex-row flex-nowrap content-center justify-start items-center overflow-x-scroll md:flex-wrap md:justify-around md:overflow-x-hidden">
+          
           {allTypesContent.map((content, index) => {
             const isActive = pathname === content.url;
 
@@ -22,13 +23,7 @@ const ContentsTypeTab = () => {
                 <Link href={content.url}>{content.name}</Link>
               </li>
             );
-          })}
-          <li className={`px-4 pb-2 hover:text-appRed-100 shadow-lg hover:shadow-none transition-all mb-3 md:mx-5 mx-2 transform hover:scale-105 w-auto text-2xl font-bold cursor-pointer`} >
-                <a href={"https://github.com/SyedaMahamFahim"}
-            target="_blank"
-            rel="noreferrer">Open Source</a>
-              </li>
-          
+          })}        
         </ul>
       </div>
     </>

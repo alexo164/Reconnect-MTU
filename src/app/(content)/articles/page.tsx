@@ -1,5 +1,4 @@
 import { Text, ContentsTypeTab } from "@/components";
-import { HomeArticles } from "@/containers";
 import { Metadata } from "next";
 import { WEBSITE_NAME, META_SEO_KEYWORDS } from "@/constants/_APP_SETUP";
 import { SanityDocument } from "@sanity/client";
@@ -26,20 +25,10 @@ const Article = async () => {
                     title
                     className='mb-5 mt-10 text-appPurple-100 dark:text-appRed-100'
                 >
-                    Article 📚
+                    About Us 📚
                 </Text>
                 <div className={"flex flex-col flex-wrap"}>
-                    {articles?.length > 0 ? (
-                        <HomeArticles
-                            isArchive={false}
-                            noOfArticle={6}
-                            articles={articles}
-                            isSeries={false}
-                            isExternal={false}
-                        />
-                    ) : (
-                        <p>No Article Found</p>
-                    )}
+                    
                 </div>
             </div>
         </section>

@@ -8,8 +8,6 @@ import {
 } from "@/sanity/lib/queries";
 import { createClient} from "next-sanity";
 import clientConfig from "@/utils/sanity-client-config";
-import { SanityDocument } from "@sanity/client";
-import { sanityFetch } from "@/sanity/lib/sanityFetch";
 
 export default async function sitemap() {
     const baseUrl = WEBSITE_URL;

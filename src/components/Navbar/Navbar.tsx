@@ -30,7 +30,7 @@ const Navbar = () => {
   }, [showSearch]);
 
   const changeTheme = () => {
-    setTheme(theme === "dark" ? "light" : "dark");
+    setTheme(theme === "light" ? "dark" : "light");
   };
 
   const openSearch = () => {

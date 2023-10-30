@@ -3,7 +3,6 @@ import { IArticleHeaderData } from "@/shared/interfaces";
 import { combineClasses } from "@/utils/utils";
 import { urlFor } from "@/utils/sanity-utils";
 import classes from "./ArticleCard.module.scss";
-import ArticleTags from "../ArticleTags/ArticleTags";
 import Image from "next/legacy/image";
 import { format } from "date-fns";
 import readingTime from "reading-time";
@@ -107,7 +106,6 @@ const ArticleCard = ({ article, path, isExternal }: IProp) => {
             >
               {meta_description.slice(0, 150)} ...
             </p>
-            <ArticleTags tags={tags} isLight={false} />
           </div>
         </div>
       </div>

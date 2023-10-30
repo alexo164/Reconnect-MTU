@@ -15,8 +15,9 @@ const tailwind = {
     container: {
       center: true,
       screens: {
-        xs:'480px',
-        sm:'720px',
+        xs:'280px',
+        sm:'420px',
+        md:'640px',
         lg: '960px',
         xl: '1140px',
         '2xl': '1200px',
@@ -29,6 +30,7 @@ const tailwind = {
        appPurple:{
         100:'#7868E6'
        },
+       
        appRed:{
         100:'#FF4D4F'
        },

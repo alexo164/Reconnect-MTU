@@ -1,5 +1,4 @@
 import { combineClasses } from "@/utils/utils";
-import ArticleTags from "../ArticleTags/ArticleTags";
 import ArticleImage from "../ArticleImage";
 import classes from "./ArticleHeader.module.scss";
 import { urlFor } from "@/utils/sanity-utils";
@@ -61,9 +60,7 @@ const ArticleHeader = ({ ARTICLE_DETAILS, isSnippet }: any) => {
                     imageHeight={mainImageHeight}
                 />
             )}
-            {!isSnippet && (
-                <ArticleTags tags={tags} center={true} isLight={true} />
-            )}
+
 
             <div
                 className={combineClasses(
