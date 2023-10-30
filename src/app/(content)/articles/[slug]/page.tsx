@@ -1,4 +1,3 @@
-import { ArticleDetails } from "@/containers";
 import { Metadata } from "next";
 import { SanityDocument } from "@sanity/client";
 import { postQuery,getRandomPostsQuery ,getRelatedSeriesPostForSinglePostQuery} from "@/sanity/lib/queries";
@@ -50,13 +49,7 @@ const SingleArticle = async ({ params }: Props) => {
         
     }
 
-    return (
-        <ArticleDetails
-            isSnippet={false}
-            post={post}
-            relatedPosts={relatedPosts}
-        />
-    );
+    
 };
 
 export default SingleArticle;
