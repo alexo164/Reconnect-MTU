@@ -8,9 +8,9 @@ const HeroSection = () => {
   return (
     <>
      
-      <section className="w-full dark:bg-[#e95e65] bg-[#e95e65]">
+      <section className="w-full h-full dark:bg-[#e95e65] bg-[#e95e65]">
         
-        <div className="flex flex-nowrap items-center py-10 px-5 mt-10 lg:mt-0 md:mt-0">
+        <div className="h-100 flex flex-nowrap items-center py-10 px-5 mt-10 lg:mt-0 md:mt-0">
           <div className="bg-[#e95e65]">
             <div className="flex md:flex-nowrap items-center">
               <div className="flex flex-col md:items-center justify-start h-full shadow-sm bg-white dark:bg-slate-900 dark:text-white text-black rounded-lg">

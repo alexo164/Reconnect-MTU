@@ -6,7 +6,7 @@ interface ContentType {
 const allTypesContent: ContentType[] = [
   {
     name: "About Us",
-    url: "/articles",
+    url: "/about",
   },
   {
     name: "Contact Us",
