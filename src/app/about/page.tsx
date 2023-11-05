@@ -18,8 +18,7 @@ const About = async () => {
     const about = await sanityFetch<SanityDocument>({
         query: getAboutQuery,
     });
-    const getFirstAbout = about[0];
-
+ 
     return (
         <>
             <section className='m-4 mt-10 dark:bg-slate-900 dark:text-white'>
