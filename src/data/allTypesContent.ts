@@ -10,15 +10,15 @@ const allTypesContent: ContentType[] = [
   },
   {
     name: "Contact Us",
-    url: "/snippets",
+    url: "/contact",
   },
   {
     name: "Workshops",
-    url: "/tags",
+    url: "/workshop",
   },
   {
     name: "Content",
-    url: "/categories",
+    url: "/content",
   },
   
 ];
