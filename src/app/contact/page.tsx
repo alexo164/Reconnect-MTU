@@ -68,6 +68,7 @@ function Contact() {
                                                 name="firstName"
                                                 // value={formData.firstName}
                                                 // onChange={handleChange}
+                                                placeholder="First Name"
                                                 className="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring focus:border-blue-300"
                                             />
                                         </div>
@@ -79,6 +80,7 @@ function Contact() {
                                                 name="lastName"
                                                 // value={formData.lastName}
                                                 // onChange={handleChange}
+                                                placeholder="Last Name"
                                                 className="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring focus:border-blue-300"
                                             />
                                         </div>
@@ -90,6 +92,7 @@ function Contact() {
                                                 name="email"
                                                 // value={formData.email}
                                                 // onChange={handleChange}
+                                                placeholder="Email"
                                                 className="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring focus:border-blue-300"
                                             />
                                         </div>
@@ -100,7 +103,7 @@ function Contact() {
                                                 name="description"
                                                 // value={formData.description}
                                                 // onChange={handleChange}
-                                                placeholder="Enter your description here"
+                                                placeholder="Enter your inquiry here"
                                                 className="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring focus:border-blue-300"
                                             ></textarea>
                                         </div>

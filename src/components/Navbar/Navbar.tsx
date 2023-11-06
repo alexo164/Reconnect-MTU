@@ -12,7 +12,6 @@ import { BsFillMoonFill, BsFillSunFill } from "react-icons/bs";
 import { ContentsTypeCard, MyInfoCard } from "@/components/index";
 // import { AiOutlineSearch } from "react-icons/ai";
 
-import { LOGO } from "@/constants/_APP_SETUP";
 import Link from "next/link";
 
 const Navbar = () => {
