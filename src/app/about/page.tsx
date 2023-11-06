@@ -1,9 +1,6 @@
 import { ContentsTypeTab } from "@/components";
 import { Metadata } from "next";
 import { META_DESCRIPTION, META_SEO_KEYWORDS } from "@/constants/_APP_SETUP";
-import { SanityDocument } from "@sanity/client";
-import { getAboutQuery } from "@/sanity/lib/queries";
-import { sanityFetch } from "@/sanity/lib/sanityFetch";
 import Image from "next/legacy/image";
 import row1pic from "./row1.jpg";
 import row2pic from "./row2.jpg"
@@ -14,17 +11,13 @@ export const metadata: Metadata = {
     keywords: META_SEO_KEYWORDS,
 };
 
-const About = async () => {
-    const about = await sanityFetch<SanityDocument>({
-        query: getAboutQuery,
-    });
+function About () {
  
     return (
         <>
             <section className='m-4 mt-10 dark:bg-slate-900 dark:text-white'>
                 <div className='container px-0 pb-[10px] pt-[5px] md:px-[15px]'>
-                <ContentsTypeTab />
-                    <div className="pt-10">
+                    <div className="pt-1">
                         <div className="text-white text-3xl pb-1 relative">
                             What is Reconnect about?
                             <div className="absolute bottom-0 left-0 w-full h-1 bg-gradient-to-r from-yellow-400 via-green-400 to-cyan-400 to-blue-400 to-pink-400 to-yellow-400 rounded-full"></div>

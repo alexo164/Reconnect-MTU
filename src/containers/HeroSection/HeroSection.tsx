@@ -14,12 +14,7 @@ const HeroSection = () => {
           <div className="bg-[#e95e65]">
             <div className="flex md:flex-nowrap items-center">
               <div className="flex flex-col md:items-center justify-start h-full shadow-sm bg-white dark:bg-slate-900 dark:text-white text-black rounded-lg">
-                <MyInfoCard />
-                <div className="mt-1 lg:mt-10 md:mt-5">
-                  <div className="mt-10 flex flex-wrap justify-center flex-col md:mt-0 md:flex-row md:items-center">
-                    <ContentsTypeCard />
-                  </div>
-                  </div>
+                Reconnect - A wellbeing workshop// LATEST WORKSHOP HERE
                 
               </div>
             </div>

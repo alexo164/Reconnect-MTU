@@ -15,14 +15,7 @@ function Contact() {
 
     return (
         <>
-            {/* NAVBAR */}
-            <section className='m-4 mt-10 dark:bg-slate-900 dark:text-white'>
-                <div className='container px-0 pb-[10px] pt-[5px] md:px-[15px]'>
-                    <ContentsTypeTab />
-                </div>
-            </section>
-
-            {/* IMAGE */}
+            {/* IMAGE
             <section className="bg-white w-100 items-center py-2">
                 <div className="flex justify-center">
                     <Image
@@ -33,7 +26,7 @@ function Contact() {
                         alt='Reconnect'
                     />
                 </div>
-            </section>
+            </section> */}
 
             {/* Contact Us content */}
             <section className='m-4 mt-1 dark:bg-slate-900 dark:text-white'>

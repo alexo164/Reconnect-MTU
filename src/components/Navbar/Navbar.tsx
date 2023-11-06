@@ -7,12 +7,13 @@ import {
 } from "@/utils/utils";
 // import Search from "../Search";
 import classes from "./Navbar.module.scss";
-import Link from "next/link";
 import { useTheme } from "next-themes";
 import { BsFillMoonFill, BsFillSunFill } from "react-icons/bs";
+import { ContentsTypeCard, MyInfoCard } from "@/components/index";
 // import { AiOutlineSearch } from "react-icons/ai";
 
 import { LOGO } from "@/constants/_APP_SETUP";
+import Link from "next/link";
 
 const Navbar = () => {
   const { theme, setTheme } = useTheme();
@@ -33,9 +34,6 @@ const Navbar = () => {
     setTheme(theme === "light" ? "dark" : "light");
   };
 
-  const openSearch = () => {
-    setShowSearch(true);
-  };
 
   return (
     <>
@@ -52,24 +50,19 @@ const Navbar = () => {
             "px-2"
           )}
         >
-          <div className="flex items-center">
-            <Link href="/" className="text-[22px] font-semibold">
-              {LOGO}
-            </Link>
-          </div>
+          <Link href="/">
+            <div className="md:items-center justify-start bg-white dark:bg-slate-900 dark:text-white text-black">
+              <MyInfoCard />
+              <div className="flex flex-wrap justify-start mt-2 md:flex-row md:items-center">
+                <ContentsTypeCard />
+              </div>
 
+            </div>
+          </Link>
+          
           <div className="flex items-center">
-            {/* <div
-              className={combineClasses(
-                classes.search_icon_wrapper,
-                "ml-5 dark:text-white"
-              )}
-              onClick={() => openSearch()}
-            >
-              <button name="search-button" aria-label="search button">
-                <AiOutlineSearch className="dark:text-white text-black text-[22px]" />
-              </button>
-            </div> */}
+
+            
 
             <button
               name="theme-switch"
@@ -81,9 +74,9 @@ const Navbar = () => {
               onClick={changeTheme}
             >
               {theme && theme === "dark" ? (
-                <BsFillSunFill className="text-2xl" />
+                <BsFillSunFill className="text-3xl" />
               ) : (
-                <BsFillMoonFill className="text-md " />
+                <BsFillMoonFill className="text-2xl " />
               )}
             </button>
           </div>

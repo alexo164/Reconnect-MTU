@@ -4,7 +4,7 @@ import { allTypesContent } from "@/data";
 
 const ContentsTypeCard = () => {
     const styleCss =
-        "flex items-center justify-center rounded-full from-blue-300 to-purple-300 px-4 pb-2 text-white hover:text-white shadow-lg hover:shadow-none transition-all mb-3 lg:mx-5 mx-2 bg-gradient-to-r text-xl pt-2 cursor-pointer transform hover:scale-105 w-auto";
+        "flex rounded-full from-blue-300 to-purple-300 px-4 pb-2 pt-2 text-white hover:text-white shadow-md hover:shadow-none transition-all mr-5 bg-gradient-to-r text-xl cursor-pointer transform hover:scale-105 w-auto";
     return (
         <>
             {allTypesContent.map((content, index) => {
