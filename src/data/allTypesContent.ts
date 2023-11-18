@@ -17,7 +17,7 @@ const allTypesContent: ContentType[] = [
     url: "/contact",
   },
   {
-    name: "Content",
+    name: "Resources",
     url: "/content",
   },
   

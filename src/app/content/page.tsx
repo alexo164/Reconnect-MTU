@@ -14,23 +14,24 @@ function Content() {
   return (
     <>
       <section className="dark:bg-slate-900 dark:text-white my-14 mx-4">
-        <div className="grid grid-cols-2 gap-4">
+        <div className="flex flex-col">
 
-          <Link href='/documents'>
-            <div className="col-span-1 bg-blue-300 p-4">
+          <Link href='/documents' className="my-5">
+            <div className="text-white h-20 bg-gradient-to-r from-green-500 to-cyan-300 text-center flex items-center justify-center font-semibold text-xl">
               Research Documents
             </div>
           </Link>
 
-          <Link href='/videos'>
-            <div className="col-span-1 bg-green-300 p-4">
-              Videos
+          <Link href='/photos' className="my-5">
+            <div className="flex-grow text-white h-20 bg-gradient-to-r from-cyan-500 to-blue-500 text-center flex items-center justify-center font-semibold text-xl">
+              Photos
+              
             </div>
           </Link>
 
-          <Link href='/photos'>
-            <div className="col-span-1 bg-red-300 p-4">
-              Photos
+          <Link href='/videos' className="my-5">
+            <div className="text-white h-20 bg-gradient-to-r from-purple-400 to-pink-400 text-center flex items-center justify-center font-semibold text-xl">
+              Videos
             </div>
           </Link>
         </div>

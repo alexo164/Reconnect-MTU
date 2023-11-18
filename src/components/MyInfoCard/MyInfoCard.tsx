@@ -1,5 +1,3 @@
-import { getRandomGradientColor } from "@/utils/utils";
-import Link from "next/link";
 import Image from "next/legacy/image";
 import ReconnectPic from "./photo.jpg";
 import NTUPic from "./ntu-logo.png";
