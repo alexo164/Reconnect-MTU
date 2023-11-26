@@ -15,7 +15,7 @@ function Documents() {
     <>
       <section className="dark:bg-slate-900 dark:text-white my-14 mx-4">
         <div className="grid grid-cols-2 gap-4">
-          <div className="col-span-1 bg-blue-300 p-4">
+          <div className="col-span-1 bg-slate-200 rounded p-4 dark:bg-slate-900">
 
 
             <object
@@ -29,7 +29,7 @@ function Documents() {
           </div>
 
 
-          <div className="col-span-1 bg-green-300 p-4">
+          <div className="col-span-1 bg-slate-200 rounded p-4 dark:bg-slate-900">
           <object
               data={"https://drive.google.com/file/d/1kk89PID6nRVu7BTCxrn4_tjSKudyBcxw/preview"}
               type="application/pdf"
@@ -40,7 +40,7 @@ function Documents() {
             </object>
           </div>
 
-          <div className="col-span-1 bg-blue-300 p-4">
+          <div className="col-span-1 bg-slate-200 rounded p-4 dark:bg-slate-900">
             <object
               data={"https://drive.google.com/file/d/1yvgDBsoXdNNzrW1FZ0RndJhXabUzDhrf/preview"}
               type="application/pdf"
@@ -51,7 +51,7 @@ function Documents() {
             </object>
           </div>
           
-          <div className="col-span-1 bg-green-300 p-4">
+          <div className="col-span-1 bg-slate-200 rounded p-4 dark:bg-slate-900">
           <iframe
               src={"https://library.iated.org/view/OBRIEN2023REC"}
               width="100%"
